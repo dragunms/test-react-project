@@ -24,7 +24,6 @@ function App() {
 
 // add a new line comment before old one
 
-
-// this is a new comment
+// this is a old comment that has been changed
 
 export default App;
