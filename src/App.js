@@ -2,6 +2,12 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
+  function masterVersion1() {
+    console.log("this is a function of masterversion1");
+  }
+
+  masterVersion1();
+
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +15,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p className="master-version-1">This is on branch master version 1</p>
         <a
           className="App-link"
           href="https://reactjs.org"
