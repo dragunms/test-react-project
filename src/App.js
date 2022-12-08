@@ -8,12 +8,14 @@ function App() {
 
   masterVersion1();
 
+  console.log("master_version_2");
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to master_version_2.
         </p>
         <p className="master-version-1">This is on branch master version 1</p>
         <p>another content</p>
